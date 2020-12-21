@@ -1,0 +1,50 @@
+.title-bar span.date { font-size: 16px; line-height: 31px; color: #818E94; display: inline-block;}
+.select_checkbox{}
+.select_checkbox .checkbox-delete{text-align: center; padding:15px 0px 15px 15px !important;}
+.select_checkbox .checkbox-delete .checkbox{opacity: 0;}
+.select_checkbox .checkbox-delete.show .checkbox{opacity: 1;}
+
+.navdrop.show-menu {position: relative;}
+.navdrop.show-menu .dropdown-box .content { padding: 0px 20px 10px; position: relative;}
+.navdrop.show-menu .dropdown-box .content:before { content: ""; position: absolute; top: -20px; right: 15px; width: 20px; height: 20px; background: #fff; transform: rotate(45deg);}
+.content h5 { font-size: 14px; line-height: 30px; letter-spacing: 0.32px; color: #000; font-weight: 600; margin-bottom: 0;}
+.content p { font-size: 14px; line-height: 26px; font-weight: 300;}
+#gotIt{display: inline-block; margin: 0; text-align: center; width: 100px;}
+.modal-body .heading {margin-bottom: 20px;}
+
+.table-wrapper.team_detail table td a{cursor: default; text-overflow: revert; white-space: unset; overflow: inherit; word-break: break-all;}
+
+/*========================*/
+
+.sub-title{display: inline-block;vertical-align: top;width: 100%;padding-bottom: 25px;}
+.sub-title ul li {display: inline-block; vertical-align: middle;}
+.sub-title ul li.btnGroup {display: none;}
+.sub-title ul li.btnGroup.show {display: inline-block;}
+.modal-header h5 span {color: #818E94;font-size: 16px;line-height: 42px;font-weight: 500;}
+
+
+/*========================*/
+
+.title-bar h1 a{display: inline-block; vertical-align: middle;}
+.col-bx-top { background: #fff; padding: 25px 30px; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+.col-bx-top .title{margin-bottom:15px; width: 100%;}
+.col-bx-top .title h3{font-size: 20px; line-height: 35px; font-weight: 500;}
+.information{display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; border-bottom: 2px solid #00000005; margin-bottom: 20px;}
+.information li {flex: 0 0 100%; max-width: 20%;}
+.information li h5{font-size: 14px; line-height: 30px; letter-spacing: 0.32px; color: #000; font-weight: 600; margin-bottom: 0;}
+.information li h4{font-size: 16px; line-height: 26px; letter-spacing: 0.8px; color: #000; font-weight: 300; margin-bottom: 20px; word-break: break-word;}
+
+/*=========*/
+.form-box{ background: #fff; padding: 25px 30px; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+
+.wrapBtn { width: 100%; padding: 20px 0px; display:inline-block;}
+.wrapBtn a{width: 48%; padding: 8px 0px;}
+
+
+@media (max-width: 1400px){
+    .information li { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 33%;}
+}
+
+
+/*========  ========*/
+.team-detail .content {display: inline-block; vertical-align: top; padding-right: 50px; } 

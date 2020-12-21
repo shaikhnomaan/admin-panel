@@ -1,0 +1,26 @@
+.title-bar ul li{position: relative; display: inline-block; vertical-align: middle;}    
+.table-wrapper.cursor-default table td {padding: 15px;}
+.table-wrapper.cursor-default table td.last-child{width: 150px; display: inline-block; padding: 9px 0px; vertical-align: middle;}
+.table-wrapper.cursor-default table td.last-child a.action-btn{padding: 5px 10px; display: inline-block; color: #FF1515 !important; border: 1px solid #C0CBDB; border-radius: 4px; font-weight:600; vertical-align: middle;}
+.table-wrapper.cursor-default table td.last-child a.action-btn:hover{background: #ff5242; color: #fff !important; transition: all 0.3s; border: 1px solid #ff5242;}
+
+/*========================*/
+
+.title-bar h1 a{display: inline-block; vertical-align: middle;}
+.col-bx-top { background: #fff; padding: 25px 30px; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+.col-bx-top .title{margin-bottom:15px; width: 100%;}
+.col-bx-top .title h3{font-size: 20px; line-height: 35px; font-weight: 500;}
+.information{display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; border-bottom: 2px solid #00000005; margin-bottom: 20px; padding-bottom: 10px;}
+.information li {flex: 0 0 100%; max-width: 20%; padding:0px 10px;}
+.information li h5{font-size: 14px; line-height: normal; letter-spacing: 0.32px; color: #000; font-weight: 600; margin-bottom:5px;}
+.information li h4{font-size: 16px; line-height: 26px; letter-spacing: 0.8px; color: #000; font-weight: 300; margin-bottom: 20px;word-break: break-word;}
+
+
+
+@media (max-width: 1400px){
+    .information li { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 33%;}
+}
+
+@media (max-width:991px) {
+	.table-wrapper th {font-size:13px; line-height: normal;}
+}

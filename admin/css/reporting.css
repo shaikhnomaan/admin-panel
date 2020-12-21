@@ -1,0 +1,43 @@
+.queryWrap { background: #fff; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+.queryWrap .title-bar { padding: 20px 40px; border-bottom: 1px solid #C0CBDB;}
+.queryWrap .title-bar h2 { font-weight: 600; font-size: 22px; line-height: 31px; margin: 0px; color: #000000; display: inline-block; vertical-align: middle;}
+.title-bar { display: inline-block; vertical-align: top; width: 100%; padding-bottom: 25px;}
+.d-flx { display: flex;}
+.queryContent { padding: 15px 40px; border-bottom: 1px solid #C0CBDB;}
+.commonRow { position: relative;}
+.closeWrap { width: 20%;}
+.selectWrap { width: 75%;}
+.close_icon { display: inline-block; margin: 10px 0px;}
+.close_icon img { width: 16px;}
+.commonRow label { margin-bottom: 15px;}
+.commonRow select { margin-bottom: 8px; height: 38px; font-size: 14px; cursor: pointer;}
+.add-clauseBtn { padding: 8px 15px; font-size: 14px; line-height: 1.42857143; background-color: rgba(255, 255, 255, 0.1); border: 1px solid #C0CBDB; border-radius: 4px; display: inline-block;}
+.add-clauseBtn img { width: 14px; display: inline-block; vertical-align: middle;}
+.generateBtn{padding:7px 10px;}
+
+.top-section {padding: 20px 0px; display: inline-block; vertical-align: top; width: 100%; vertical-align: top;}
+.top-section .sub-title { font-size: 20px; display: inline-block; vertical-align: middle; margin: 0px; font-weight: 500;}
+.chart-section {padding: 40px 40px 0px 0; background: #fff;}
+
+.h-38{height:38px; line-height: 30px;}
+
+.clause-content{display:none;}
+.clause-content.show{display:block;}
+
+
+
+@media (max-width: 1400px){
+	.add-clauseBtn { padding: 8px 10px; font-size: 13px;}
+	.commonRow select {font-size: 13px;}
+
+}
+
+@media (max-width: 991px){
+	.queryContent, .queryWrap .title-bar{padding: 15px 20px;}
+	.closeWrap {width: 20px;}
+	.close_icon img {width: 12px;}
+	.queryContent .d-flx {margin-top: 0 !important;}
+	.selectWrap {width: calc(100% - 25px );}
+	.commonRow {margin-bottom: 15px;}
+	.common-btn.h-38{display:block; margin:0px;}
+}

@@ -1,0 +1,9 @@
+.top-section {padding: 20px 0px;display: inline-block;vertical-align: top;width: 100%;vertical-align: top;}
+.top-section .sub-title {font-size: 20px;display: inline-block;vertical-align: middle;margin: 0px;font-weight: 500; line-height:40px;}
+.chart-section {padding: 40px 40px 0px 0;background: #fff;}
+.card { overflow: hidden; min-height: 145px; border: 0;  box-shadow: 0 6px 0 0 rgba(0, 0, 0, .01), 0 15px 32px 0 rgba(0, 0, 0, .06);}   
+
+.companiesList .table-wrapper{margin-bottom: 0px;  }
+.table-wrapper.cursor-default table td a{cursor:default;}
+.main-container.dashboard .table-wrapper table td a{padding:16px 15px; }
+.main-container.dashboard .table-wrapper tr{border-right: 0px solid transparent;}

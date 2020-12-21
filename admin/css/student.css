@@ -1,0 +1,96 @@
+.title-bar ul li{position: relative; display: inline-block; vertical-align: middle;}
+
+ /*           
+.table-wrapper { text-align: left; border-radius: 3px; position: relative; margin-bottom: 50px; font-size: 15px; background: #fff; }
+.table-scroll{overflow: auto;}  
+.table-wrapper table { border-collapse: collapse; table-layout: fixed; width: 100%; }
+.table-wrapper tr { border: 1px solid #e6e6f2; }
+.table-wrapper table thead th { border-collapse: separate; border-bottom: 8px solid #F6F8FD; padding: 15px; box-shadow: inset 0px -1px 0px 0px #e6e6f2; }
+.table-wrapper th { font-weight: 400; padding: 15px; position: relative; color: #3d405c; vertical-align: top; text-transform: capitalize; font-size: 15px; font-weight: 500; }
+.table-wrapper table thead th i { position: absolute; width: 17px; height: 17px; margin-left: 1px; }
+.table-wrapper table td img { vertical-align: middle; }
+.table-wrapper table td a { padding: 15px; text-decoration: none; display: block; overflow: hidden; -o-text-overflow: ellipsis; text-overflow: ellipsis; white-space: nowrap; position: relative; }
+.table-wrapper table td .action-wrap a {display: inline-block;vertical-align: top;padding: 0px;overflow: visible;}
+.table-wrapper table td .action-wrap a {border-radius: 100%;width: 38px;height: 38px;display: inline-block; margin-right: 1px;position: relative;vertical-align: top;line-height: 38px;font-size: 17px;color: #888;text-align: center;padding: 0px 9px;overflow: visible;border: 1px solid #ddd;background: #fff;}
+table .action-wrap a:before {left: 0;top: 0;content: "";position: absolute;width: 100%;height: 100%;-webkit-transform: scale3d(0,0,0);transform: scale3d(0,0,0);-webkit-transition: all 250ms;-o-transition: all 250ms;transition: all 250ms;-webkit-backface-visibility: hidden;backface-visibility: hidden;background-color: rgba(0,0,0,0.1);z-index: 0;border-radius: 100%;}
+*/
+/*====== pagination css =========*/
+/*.pagination-wrapper{text-align: right; padding: 20px 20px; box-sizing:border-box;}
+.pagination-wrapper .paginate_btn.current {background:#FF5242 ;color: #fff !important;border-color: #FF5242 ;}
+.pagination-wrapper .paginate_btn:hover {background:#FF5242 ; color: #fff !important;}
+.pagination-wrapper .paginate_btn {display: inline-block;min-width: 35px;line-height: 33px;text-align: center;margin-left: 0px;text-align: center;cursor: pointer;color: #666;vertical-align: top;font-size: 13px;border: 1px solid #ddd;}
+.pagination-wrapper .paginate_btn.disabled:hover, .pagination-wrapper .paginate_btn.disabled {background: none;color: #999; border-color: #ddd;}
+.pagination-wrapper .previous, .pagination-wrapper .next {position: relative;font-size: 0px;}
+.pagination-wrapper .next:after {transform: rotate(135deg);left: 14px;}
+.pagination-wrapper .previous:after, .pagination-wrapper .next:after {content: "";position: absolute;border-top: 2px solid #FF5242;border-left: 2px solid #FF5242;width: 6px;height: 6px;top: 50%;left: 12.5px;
+    margin-top: -4px;}
+.pagination-wrapper .previous:after {transform: rotate(-45deg);}
+*/
+
+
+.modal-dialog .total {
+    display: block;
+}
+
+.modal-dialog .total h5 {
+    font-size: 18px;
+    line-height: 31px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.modal-dialog .total .users li {
+    border: 1px solid #DCE0E6;
+    border-radius: 4px;
+    padding: 16px 18px;
+    margin: 0;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-bottom: 20px;*/
+}
+.modal-dialog .total .users li a {
+    margin-left: 20px;
+    display: inline-block;
+}
+.modal-dialog .total .users li a img {
+    width: 12px;
+    vertical-align: middle;
+}
+
+/*.main-container.student .col-bx-top .title {
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+}*/
+
+.information.boxes li{padding: 20px;
+    border-right: 2px solid #00000005;
+    border-bottom: 2px solid #00000005;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 33%;}
+.information.boxes li h3 { font-size: 28px; line-height: 40px; font-weight: 600; letter-spacing: 1.2px; }
+
+.information.boxes li:nth-child(3n +1 ) {
+    padding-left: 0;
+}
+
+
+/*========================*/
+
+.title-bar h1 a{display: inline-block; vertical-align: middle;}
+.col-bx-top { background: #fff; padding: 25px 30px; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+.col-bx-top .title{margin-bottom:15px; width: 100%;}
+.col-bx-top .title h3{font-size: 20px; line-height: 35px; font-weight: 500;}
+.information {display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;  margin-bottom: 20px; padding-bottom: 10px;}
+.information li {flex: 0 0 100%; max-width: 20%;}
+.information li h5{font-size: 14px; line-height: 30px; letter-spacing: 0.32px; color: #000; font-weight: 600; margin-bottom: 0;}
+.information li h4{font-size: 16px; line-height: 26px; letter-spacing: 0.8px; color: #000; font-weight: 300; margin-bottom: 20px;word-break: break-word;}
+
+@media (max-width: 1400px){
+    .information li {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 33%;
+    }
+}

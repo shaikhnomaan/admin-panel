@@ -1,0 +1,43 @@
+
+.rowWrap { margin-bottom: 25px;}
+.small_title { font-size: 20px; margin-bottom: 20px; font-weight:500;}
+.col-bx-top { background: #fff; padding: 35px 30px; border-radius: 3px; display: inline-block; vertical-align: top; width: 100%; margin-bottom: 15px; -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22); box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);}
+
+.commonBox.rowbody { display: flex; align-items: center;}
+.commonBox:first-child { border-right: 1px solid #ccc;}
+.commonBox { width: 50%;}
+.leftBox, .rightBox { width: 50%;}
+.rightBox { padding: 0px 15px;}
+.green { color: #5ECB5E;}
+.commonBox p.green { font-size: 18px; font-weight: 600;}
+.boldText { font-size: 35px; color: #2D2F39; font-weight: 700; margin-bottom: 20px; margin-top: 10px; display: block;}
+.commonBox p.red { font-size: 14px; font-weight: 600;}
+.red { color: #FF5242;}
+.orange {color: #F4A243;font-weight: 600;}
+
+.listview { margin-top: 15px;}
+.rightBox .listview dl.list.round { background: rgba(94,203,94,0.15); color: #5ECB5E !important; border-radius: 30px; padding: 7px 12px;}
+.rightBox .listview dl { margin-bottom: 10px; margin-top: 0; font-size: 14px; padding: 0px 12px;}
+.rightBox .listview .list.round dt { color: #5ECB5E; font-weight: 500;}
+.rightBox .listview .list dt { text-align: right; display: inline-block; vertical-align: top; width: 42%; color: #818E94; font-size: 14px; font-weight: 400;}
+.rightBox .listview .list dt:first-child { text-align: left; text-overflow: ellipsis; white-space: normal; width: 54%;}
+
+.commonBox p.red.small_font{font-size:10px;}
+
+@media (max-width: 1400px){
+	.small_title {font-size: 18px;}
+	.main-container .col-bx-top {padding: 20px;}
+	.col-bx-top .commonBox p.orange { min-height: 44px; font-size: 15px;}
+	.boldText {font-size: 28px;}
+
+	.rightBox .listview dl {font-size: 13px;}
+	.rightBox .listview .list dt {font-size: 13px;}
+
+	.main-container .col-bx-top .commonBox p.green,
+	.main-container .col-bx-top .commonBox p.orange { min-height: 44px; font-size: 15px;}
+
+}
+
+@media (max-width: 1199px){
+	.main-container.deans .col-bx-top {padding: 15px;}
+}
